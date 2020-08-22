@@ -10,8 +10,8 @@ Instructions to get a personal TMDB API key can be found here: https://developer
 
 ## Local
 
-To run locally: 
+To run Vercel serverless locally: 
 - First install all packages using `npm i`
 - Link your Vercel project to this project by running `vercel`
 - Pull any Vercel env variables to your local machine using `vercel env pull`
-- Then run `vercel dev` to run a local instance
+- Then run `vercel dev` to run a local instance or `vercel dev --listen PORT` to run on a different port
