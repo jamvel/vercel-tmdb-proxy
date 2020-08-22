@@ -11,10 +11,6 @@
             }
         },
         { 
-            "src": "/api/test/.*", 
-            "dest": "/api/test"
-        },
-        { 
             "src": "/(?!api/?)(.*)", 
             "status": 308, 
             "headers": { 
